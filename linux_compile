@@ -1,0 +1,35 @@
+cc -fPIC -O3 -c spax.c
+cc -fPIC -O3 -c sptx.c
+ld -o spax.so -shared spax.o
+ld -o sptx.so -shared sptx.o
+
+cc -fPIC -O3 -c spax_tau.c
+cc -fPIC -O3 -c sptx_tau.c
+ld -o spax_tau.so -shared spax_tau.o
+ld -o sptx_tau.so -shared sptx_tau.o
+cc -fPIC -O3 -c spax_tau_1ff.c
+cc -fPIC -O3 -c sptx_tau_1ff.c
+ld -o spax_tau_1ff.so -shared spax_tau_1ff.o
+ld -o sptx_tau_1ff.so -shared sptx_tau_1ff.o
+cc -fPIC -O3 -c spax_tau_4ff.c
+cc -fPIC -O3 -c sptx_tau_4ff.c
+ld -o spax_tau_4ff.so -shared spax_tau_4ff.o
+ld -o sptx_tau_4ff.so -shared sptx_tau_4ff.o
+
+cc -fPIC -O3 -c spax_u.c
+cc -fPIC -O3 -c sptx_u.c
+ld -o spax_u.so -shared spax_u.o
+ld -o sptx_u.so -shared sptx_u.o
+cc -fPIC -O3 -c spax_u_1ff.c
+cc -fPIC -O3 -c sptx_u_1ff.c
+ld -o spax_u_1ff.so -shared spax_u_1ff.o
+ld -o sptx_u_1ff.so -shared sptx_u_1ff.o
+
+cc -fPIC -O3 -c spax_tau_nsub.c
+cc -fPIC -O3 -c sptx_tau_nsub.c
+ld -o spax_tau_nsub.so -shared spax_tau_nsub.o
+ld -o sptx_tau_nsub.so -shared sptx_tau_nsub.o
+cc -fPIC -O3 -c spax_u_nsub.c
+cc -fPIC -O3 -c sptx_u_nsub.c
+ld -o spax_u_nsub.so -shared spax_u_nsub.o
+ld -o sptx_u_nsub.so -shared sptx_u_nsub.o
