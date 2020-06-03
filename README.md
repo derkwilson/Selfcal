@@ -1,5 +1,5 @@
 # Selfcal
-Written by Joseph Smidt (I think) based on the least squares self-calibration method of Arendt et al 2000. Archiving for future use. The code was originally written for Spitzer IRAC, so I am not entirely sure it can be extended to other types of data if it is doing IRAC specific things, but may be worth a try. I don't know what most of the files in this code do and there is almost no documentation, but I have been able to get it to mosaic data together, so maybe it will work for others too.
+Written by Joseph Smidt (I think), second author on Cooray et al 2012 and Zemcov et al 2014, based on the least squares self-calibration method of Arendt et al 2000. Archiving for future use. The code was originally written for Spitzer IRAC, so I am not entirely sure it can be extended to other types of data if it is doing IRAC specific things, but may be worth a try. I don't know what most of the files in this code do and there is almost no documentation, but I have been able to get it to mosaic data together, so maybe it will work for others too.
 
 To use:
 
