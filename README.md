@@ -3,7 +3,7 @@ Written by Joseph Smidt (I think), second author on Cooray et al 2012 and Zemcov
 
 To use:
 
-1. Download to the directory of your choice.
+1. Download the selfcal files to the directory of your choice.
 
 2. The file that runs everything is called 'escargot_main.pro'. Before running, open this file up in a text editor. You will need to change three things in the file before you can run it. The first is on line 65, where you will have to edit the variable 'tag_save'. This is just the directory name and/or file prefix where you would like the output of the code (i.e., the mosaic) to be saved to. Next is on line 92, where you need to edit the variable 'files' to the name of the directory where your input data tiles are located. I'll discuss inputs in the next bullet point. Last, on lines 97 and 98, you need to state the dimensions of your input data tiles via 'XPIX' and 'YPIX'. The default is for IRAC images, which are 256 pixels by 256 pixels.
 
